@@ -34,12 +34,45 @@
     width: 100px;
     margin-right: 20px;
   }
+  .navbar {
+            background-color: #333; /* Dark gray navbar background */
+            color: #fff; /* White text color */
+            padding: 10px 20px; /* Adjust padding as needed */
+            display: flex;
+            justify-content: space-between; /* Align items to the start and end of the navbar */
+            align-items: center; /* Center items vertically */
+        }
+
+        .navbar h1 {
+            margin: 0; /* Remove default margin */
+        }
+
+        .navbar ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+        }
+
+        .navbar li {
+            margin-left: 10px;
+        }
+
+        .navbar a {
+            color: #fff; /* White color for links */
+            text-decoration: none; /* Remove underline */
+        }
+
 </style>
 </head>
 <body>
-  <header>
-    <h1>MENTAL HEALTH CHATBOT</h1>
-  </header>
+   <div class="navbar">
+        <h1>MENTAL HEALTH CHATBOT</h1>
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/about">About</a></li>
+        </ul>
+    </div>
   <div class="container">
     <p>
       A mental health chatbot is an AI-driven program designed to offer support and resources to individuals experiencing mental health challenges or seeking mental wellness through text-based conversations. Leveraging natural language processing (NLP) and machine learning algorithms, these chatbots engage users in empathetic and informative dialogues, providing personalized assessments, coping strategies, and educational content on topics like anxiety, depression, and stress management. They may also refer users to relevant resources such as hotlines or therapists while ensuring privacy and confidentiality. Mental health chatbots serve as accessible and non-judgmental companions, augmenting traditional mental health services by offering guidance and assistance whenever and wherever users need it. 
